@@ -29,5 +29,12 @@ command = dis int g1/1/1
 
 ----------
 
+## 封装 ##
+``` bash
+pyinstaller --onefile Batch_device_commands.py
+```
+
+----------
+
 ## 前提！ ##
 网络设备开启SSH登录，添加了aaa认证足够权限的账户。
